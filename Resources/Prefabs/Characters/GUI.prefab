@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1626308972045664}
+  m_IsPrefabParent: 1
+--- !u!1 &1626308972045664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4525366767105336}
+  - component: {fileID: 114108635142349364}
+  - component: {fileID: 114495568458093358}
+  - component: {fileID: 114965573349660620}
+  - component: {fileID: 114278719639734566}
+  m_Layer: 0
+  m_Name: GUI
+  m_TagString: GUI
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4525366767105336
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1626308972045664}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 135.714, y: 1.3563128, z: 85.12544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114108635142349364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1626308972045664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a33e3350892f5343b571b8563aed080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionBar: {fileID: 2800000, guid: eb661b92bd318534bad2dc6972a6d1be, type: 3}
+  actionBarPosition:
+    serializedVersion: 2
+    x: 0.28
+    y: 0.8999
+    width: 0.4
+    height: 0.1
+  spellX: 0.284
+  spellY: 0.91
+  spellW: 0.045
+  spellH: 0.075
+  spellD: 0.005
+--- !u!114 &114278719639734566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1626308972045664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 3
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 114965573349660620}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 0
+  instantiationId: -1
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
+--- !u!114 &114495568458093358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1626308972045664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d36d55b6144c3c41bb766aba61a861d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castBar: {fileID: 2800000, guid: 7184a50fdfc57de40bf5eff80ec39e0c, type: 3}
+  castBarFill: {fileID: 2800000, guid: 2d7ad247ecbde464ea26cc3bbd7fd992, type: 3}
+  castBarPosition:
+    serializedVersion: 2
+    x: 0.318
+    y: 0.6
+    width: 0.365
+    height: 0.15
+  castBarFillPosition:
+    serializedVersion: 2
+    x: 0.332
+    y: 0.655
+    width: 0
+    height: 0.04
+  widthMax: 0.328
+--- !u!114 &114965573349660620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1626308972045664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68c88e10a57f6a43adcae6b445887bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runeIcon: {fileID: 2800000, guid: ef530cdf0d893c34f84db31054488a37, type: 3}
+  runeCDIcon: {fileID: 2800000, guid: 777f046942812fc44a3ff006fa99f07a, type: 3}
